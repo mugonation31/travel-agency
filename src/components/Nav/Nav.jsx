@@ -42,7 +42,7 @@ export default function Nav() {
       </ul>
       <div className="nav__rblock">
         <div className="login">Login</div>
-        <div className="btn">Sign Up</div>
+        <button className="btn">Sign Up</button>
       </div>
     </div>
   );

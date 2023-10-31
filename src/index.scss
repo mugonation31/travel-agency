@@ -1,9 +1,25 @@
 /* src/styles/fonts.css */
 
 @font-face {
-  font-family: "DMSans";
+  font-family: "DMSans-Regular";
   font-weight: 400;
-  src: url("./assets/fonts/jost/Jost-Regular.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  src: url("./assets/fonts/DMSans/DMSans_18pt-Regular.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
+@font-face {
+  font-family: "DMSans-Medium";
+  font-weight: 500;
+  src: url("./assets/fonts/DMSans/DMSans_18pt-Medium.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  font-weight: 700;
+  src: url("./assets/fonts/DMSans/DMSans_18pt-Bold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
   /* Add additional src declarations for other file formats if applicable */
   /* Add font-weight and font-style declarations if needed */
 }
